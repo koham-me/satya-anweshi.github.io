@@ -1,16 +1,26 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: In the search of truth
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+### Hello, World!
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+My name is **Ranjan Mishra**, I am [software engineer](https://en.wikipedia.org/wiki/Software_engineer) and [data scientist](https://en.wikipedia.org/wiki/Data_science)
+. My job involves solving real world complex problems using mathematics and computer science. 
 
-What else do you need?
+I have M.Tech(2017) in Computer Science from [Indian Statistical Institute](https://en.wikipedia.org/wiki/Indian_Statistical_Institute) and B.Tech(2012) in Information 
+Technology from [SASTRA UNIVERSITY](https://en.wikipedia.org/wiki/Shanmugha_Arts,_Science,_Technology_%26_Research_Academy).
 
-### my history
+##### Few of the fields I am interested in, are
+* 	Machine Learning
+* 	Optimization and Optimal Control
+* 	Stochastic Calculus
+*   Mathematical Finance
+*   Signal Processing
+* 	Quantum Mechanics & Computing
+* 	Anthropology & Human Growth
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+I love hindi poetry and urdu ghazals.
+
+To contact me , you can ring me on +91-720-8129-280 or send me mail on [rjmishra111@gmail.com](mailto:rjmishra111@gmail.com).
