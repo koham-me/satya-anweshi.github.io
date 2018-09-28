@@ -73,12 +73,12 @@ author:
 social-network-links:
   rss: true
   email: "rjmishra111@gmail.com"
-  facebook: rjmishra
+  #facebook: rjmishra
   github: rjmishra
-  twitter: rjmishra
+  #twitter: rjmishra
 #  reddit: yourname
 #  google-plus: +DeanAttali
-  linkedin: rjmishra111
+  linkedin: rjmishra
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
@@ -99,7 +99,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
+# url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 
