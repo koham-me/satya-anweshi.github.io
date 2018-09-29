@@ -13,7 +13,7 @@ A statistical hypothesis is conjecture about the population parameter which may 
 *H1(Alternate Hypothesis) : Defendent is guilty.*
 
 In our example of acceleration due to gravity, we would have  
-*H0 : Acceleration due to gravity on moon is same as on earth. ($$ g_e \eq g_m $$)*  
+*H0 : Acceleration due to gravity on moon is same as on earth. ($$ g_e = g_m $$)*  
 *H1 : Acceleration due to gravity on moon is not same as it is on earth. ($$ g_e \neq g_m $$)*
 
 In case of height of children,  
@@ -43,6 +43,7 @@ Below are step by step procedure to perform hypothesis testing,
 ### z-Test for Mean
 
 We will continue with the height example, We are going to test the hypothesis based on below data. Please note this is simulated data.
+
 |Height in cm |
 |123.67|
 |116.50|
@@ -63,7 +64,8 @@ Step 1: State the hypothesis
 Step 2: Let us assume that we are going to ignore 10% type I error and hence critical value will be 0.10.  
 Step 3: We need to define a test statistics, in case we know true variance we can define test statistics as
 
-$$ \frac{\overbar{X} - \mu}{\frac{\sigma}{\sqrt{n}}}} $$ 
+$$ \frac{\overbar{X} - \mu} {\frac{\sigma}{\sqrt{n}}} $$
+
 Above is called z-statistics and follws standard normal distribution under the assumptions of null hypothesis. If it deviates from standard normal distribution more than critical value, we can say that the assumption of null hypothesis is not proper and hence reject null hypothesis. In our case we got value for z-statistics as -3.30 and z-statistics corresponding to critical value is 1.64. Which means we can accept any value in between (-1.64, 1.64). But -3.30 is out of this range.
 
 ```python
@@ -75,9 +77,8 @@ z = np.sqrt(100) * (dataset.mean() - 135) / 10
 
 Step 4: We reject the null hypothesis, that the average height of 14 year children is 135cm.
 
-
 In case we do not know the variance value beforehand, we will get the t-statistics which can be computed as 
-$$ \frac{\overbar{X} - \mu}{\frac{s.d.}{\sqrt{n}}}} $$ 
+$$ \frac{\overbar{X} - \mu}{\frac{s.d.}{\sqrt{n}}} $$ 
 s.d. is standard deviation calculated from data. The correspnding test is called t-test.
 
 #### p-value
@@ -87,5 +88,5 @@ Instead of comparing with z or t-statistics, we can compute the corresponding p-
 
 ### Two Sample Test
 
-Continuing with example of comparison of acceleration due to gravity on earth surface and moon surface. We know that a free falling ball from heigh h will take $\sqrt{gh}$ time to reach the surface. Consider the hypothetical experiment of dropping balls from height h on earth and on moon. We record the time it touches the ground. From this experiment we compute the value of g on earth and on moon. 
+Continuing with example of comparison of acceleration due to gravity on earth surface and moon surface. We know that a free falling ball from heigh h will take $$\sqrt{\frac{2h}{g}}$$ time to reach the surface. Consider the hypothetical experiment of dropping balls from height h on earth and on moon. We record the time it touches the ground. From this experiment we compute the value of g on earth and on moon. 
 
