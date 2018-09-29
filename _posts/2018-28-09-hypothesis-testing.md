@@ -64,7 +64,7 @@ Step 1: State the hypothesis
 Step 2: Let us assume that we are going to ignore 10% type I error and hence critical value will be 0.10.  
 Step 3: We need to define a test statistics, in case we know true variance we can define test statistics as
 
-$$ \frac{\overbar{X} - \mu} {\frac{\sigma}{\sqrt{n}}} $$
+$$ z = \frac{\bar{X} - \mu} {\frac{\sigma}{\sqrt{n}}} $$
 
 Above is called z-statistics and follws standard normal distribution under the assumptions of null hypothesis. If it deviates from standard normal distribution more than critical value, we can say that the assumption of null hypothesis is not proper and hence reject null hypothesis. In our case we got value for z-statistics as -3.30 and z-statistics corresponding to critical value is 1.64. Which means we can accept any value in between (-1.64, 1.64). But -3.30 is out of this range.
 
@@ -78,7 +78,8 @@ z = np.sqrt(100) * (dataset.mean() - 135) / 10
 Step 4: We reject the null hypothesis, that the average height of 14 year children is 135cm.
 
 In case we do not know the variance value beforehand, we will get the t-statistics which can be computed as 
-$$ \frac{\overbar{X} - \mu}{\frac{s.d.}{\sqrt{n}}} $$ 
+$$ t = \frac{\bar{X} - \mu}{\frac{s.d.}{\sqrt{n}}} $$ 
+
 s.d. is standard deviation calculated from data. The correspnding test is called t-test.
 
 #### p-value
