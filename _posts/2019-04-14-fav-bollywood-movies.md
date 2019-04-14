@@ -8,7 +8,7 @@ comments: true
 ---
 
 ## Awaara (1951)
-[https://www.imdb.com/title/tt0043306/] *(Awaara Imdb) 
+*[Awaara Imdb] (https://www.imdb.com/title/tt0043306/)
 ## Do Beegha Jameen (1953)
 ## Shri 420 (1955)
 ## Jaagte Raho (1956)
